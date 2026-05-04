@@ -1,24 +1,27 @@
-﻿
-DecentraRank v0.1.0 ù 0G Validator Ingestion
+2026-05-04 23:36:02,405 [INFO] decentrarank.ingestion.pipeline: Connected to 0G chain 16661 via https://0g-mainnet.drpc.org
+2026-05-04 23:36:07,374 [WARNING] decentrarank.ingestion.pipeline: Live ingestion failed (Live validator ingestion requires a Tendermint REST gateway endpoint. Set ZEROG_REST_ENDPOINT in your environment or pass --rest-endpoint.); falling back to replay.
+
+DecentraRank v0.1.0 — 0G Validator Ingestion
 ========================================================================
-python : Traceback (most recent call last):
-At line:1 char:1
-+ python scripts\ingest_validators.py 2>&1 | Out-File -FilePath build\l ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-  File "D:\Downlod\claude\decentrarank-clean\scripts\ingest_validators.py", line 102, in <module>
-    sys.exit(main())
-             ~~~~^^
-  File "D:\Downlod\claude\decentrarank-clean\scripts\ingest_validators.py", line 52, in main
-    result = run_ingestion(
-        rpc_endpoint  = args.rpc_endpoint,
-        rest_endpoint = args.rest_endpoint,
-        force_replay  = args.replay,
-    )
-  File "D:\Downlod\claude\decentrarank-clean\decentrarank\ingestion\pipeline.py", line 63, in run_ingestion
-    client = ZeroGRpcClient(RpcConfig(endpoint=rpc_endpoint))
-  File "D:\Downlod\claude\decentrarank-clean\decentrarank\ingestion\rpc_client.py", line 55, in __init__
-    raise RuntimeError("The 'requests' package is required. pip install requests")
-RuntimeError: The 'requests' package is required. pip install requests
+  Source       : REPLAY
+  Block number : 1500000
+  Validators   : 12
+  Generated at : 2026-05-04T18:06:07+00:00
+========================================================================
+Rank  Validator                    Score  Rel.  Cost  Prov. Slash
+-----------------------------------------------------------------
+[1]   InfraDAO                    0.8611  1.00  0.85   0.97     0
+[2]   Aristotle-Prime             0.8561  1.00  0.80   0.98     0
+[3]   Helios-Stake                0.8422  1.00  0.70   0.99     0
+  4   ZeroPoint                   0.8422  1.00  0.75   0.95     0
+  5   DecentraRank-Validator      0.8390  1.00  0.75   0.93     0
+  6   GravityNode                 0.8319  1.00  0.70   0.94     0
+  7   EagleStake                  0.8228  1.00  0.65   0.93     0
+  8   ValidNode-IO                0.8153  1.00  0.75   0.82     0
+  9   NodeFleet                   0.8010  1.00  0.50   0.93     0
+ 10   BlockKeeper                 0.7728  0.92  0.60   0.83     1
+ 11   MoonValidator               0.6880  0.84  0.25   0.80     2
+ 12   ChainGuard J                0.5983  0.66  0.00   0.80     3
+
+  Output written to: D:\Downlod\claude\decentrarank-clean\build\validator_index.json
+
