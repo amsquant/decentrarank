@@ -1,3 +1,7 @@
+> **Active 0G Mainnet Validator** — this project is built and operated by an active validator on 0G mainnet (chain ID 16661).
+> Validator address: [`0xaED4832042D1204Faf7a97eDD93611A92B20461c`](https://chainscan.0g.ai/address/0xaED4832042D1204Faf7a97eDD93611A92B20461c)
+>
+> Live RPC connection verified. See [`build/live_run.log`](build/live_run.log) for the captured connection log.
 # DecentraRank
 
 > Universal AI-powered ranking & indexing infrastructure for the 0G Network.
