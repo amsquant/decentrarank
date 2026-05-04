@@ -1,0 +1,1335 @@
+{
+  "generated_at": "2026-05-04T13:45:25.736071+00:00",
+  "config": {
+    "n_steps": 60,
+    "requests_per_step": 12,
+    "seed": 42
+  },
+  "ingestion_source": "replay",
+  "n_producers": 12,
+  "n_consumers": 12,
+  "convergence_step": 1,
+  "final_rankings": [
+    [
+      "InfraDAO",
+      0.991
+    ],
+    [
+      "Aristotle-Prime",
+      0.988
+    ],
+    [
+      "ZeroPoint",
+      0.985
+    ],
+    [
+      "DecentraRank-Validator",
+      0.985
+    ],
+    [
+      "ValidNode-IO",
+      0.985
+    ],
+    [
+      "Helios-Stake",
+      0.982
+    ],
+    [
+      "GravityNode",
+      0.982
+    ],
+    [
+      "EagleStake",
+      0.979
+    ],
+    [
+      "NodeFleet",
+      0.97
+    ],
+    [
+      "MoonValidator",
+      0.8425
+    ],
+    [
+      "BlockKeeper",
+      0.826
+    ],
+    [
+      "ChainGuard",
+      0.6576
+    ]
+  ],
+  "flagged_history": [],
+  "calibration": {
+    "best_weights": {
+      "relevance": 0.1,
+      "recency": 0.1,
+      "provenance": 0.1,
+      "reliability": 0.1,
+      "cost": 0.6000000000000001
+    },
+    "best_score": 0.9944,
+    "search_history": [
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.6000000000000001
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.5
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.4,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.5
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.30000000000000004,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.2,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.4,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.5
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.4,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.4,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.4,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.4,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.5,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.6000000000000001,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.5
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.4,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.30000000000000004,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.4,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.5,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.4
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.4,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.30000000000000004
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.5,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.5,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.6000000000000001,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9944
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.5,
+          "cost": 0.2
+        },
+        "score": 0.9939
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.4,
+          "cost": 0.2
+        },
+        "score": 0.9939
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.2
+        },
+        "score": 0.9939
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.4,
+          "cost": 0.2
+        },
+        "score": 0.9939
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.2
+        },
+        "score": 0.9939
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.2
+        },
+        "score": 0.9939
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.6000000000000001,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.4,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.5,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.30000000000000004,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.4,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.4,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.4,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.5,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.30000000000000004,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.4,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.4,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.4,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.2,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.4,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.4,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.5,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.5,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.5,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.30000000000000004,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.4,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.2,
+          "cost": 0.2
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.4,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.4,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.30000000000000004,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.4,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.4,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.4,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.30000000000000004,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.30000000000000004,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.30000000000000004,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.2,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.2,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.5,
+          "recency": 0.1,
+          "provenance": 0.1,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.5,
+          "recency": 0.1,
+          "provenance": 0.2,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9933
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.5,
+          "reliability": 0.2,
+          "cost": 0.1
+        },
+        "score": 0.9911
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.4,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9911
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.30000000000000004,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9911
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.2,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9911
+      },
+      {
+        "weights": {
+          "relevance": 0.4,
+          "recency": 0.1,
+          "provenance": 0.30000000000000004,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9911
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.5,
+          "reliability": 0.1,
+          "cost": 0.2
+        },
+        "score": 0.9806
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.1,
+          "provenance": 0.6000000000000001,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9806
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.2,
+          "provenance": 0.5,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9806
+      },
+      {
+        "weights": {
+          "relevance": 0.1,
+          "recency": 0.30000000000000004,
+          "provenance": 0.4,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9806
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.1,
+          "provenance": 0.5,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9806
+      },
+      {
+        "weights": {
+          "relevance": 0.2,
+          "recency": 0.2,
+          "provenance": 0.4,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9806
+      },
+      {
+        "weights": {
+          "relevance": 0.30000000000000004,
+          "recency": 0.1,
+          "provenance": 0.4,
+          "reliability": 0.1,
+          "cost": 0.1
+        },
+        "score": 0.9806
+      }
+    ]
+  }
+}

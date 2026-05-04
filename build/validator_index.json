@@ -1,0 +1,381 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-04T13:53:47.623405+00:00",
+  "source": "replay",
+  "block_number": 1500000,
+  "validator_count": 12,
+  "rankings": [
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000005",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9703703703703703,
+      "reliability": 0.9984980493672587,
+      "cost": 0.85,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "InfraDAO",
+          "operator_address": "0x1111000000000000000000000000000000000005",
+          "commission_rate": 0.03,
+          "delegations_total": "2700000000000000000000000",
+          "self_bond": "500000000000000000000000",
+          "uptime_percent": 99.62,
+          "blocks_signed": 142400,
+          "blocks_proposed": 1790,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.8611,
+      "entity_id": "0x576a4976c8070c8025295d90c030216ea0194573",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000001",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9809523809523809,
+      "reliability": 0.9997027701232732,
+      "cost": 0.8,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "Aristotle-Prime",
+          "operator_address": "0x1111000000000000000000000000000000000001",
+          "commission_rate": 0.04,
+          "delegations_total": "4200000000000000000000000",
+          "self_bond": "800000000000000000000000",
+          "uptime_percent": 99.98,
+          "blocks_signed": 144500,
+          "blocks_proposed": 2350,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.8561,
+      "entity_id": "0x05df7ff4ce68a3c4d9882f6811073aead8e95184",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000002",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9870967741935484,
+      "reliability": 0.999267199818013,
+      "cost": 0.7,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "Helios-Stake",
+          "operator_address": "0x1111000000000000000000000000000000000002",
+          "commission_rate": 0.06,
+          "delegations_total": "3100000000000000000000000",
+          "self_bond": "600000000000000000000000",
+          "uptime_percent": 99.85,
+          "blocks_signed": 143200,
+          "blocks_proposed": 1980,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.8422,
+      "entity_id": "0x7406fffac09a87741096567d73cb4b0502678f26",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000009",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.95,
+      "reliability": 0.9991000522050816,
+      "cost": 0.75,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "ZeroPoint",
+          "operator_address": "0x1111000000000000000000000000000000000009",
+          "commission_rate": 0.05,
+          "delegations_total": "2000000000000000000000000",
+          "self_bond": "350000000000000000000000",
+          "uptime_percent": 99.8,
+          "blocks_signed": 143000,
+          "blocks_proposed": 1770,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.8422,
+      "entity_id": "0xc7dc38e5ebf1a51acfaf840283efe88c5cb0c895",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0xaED4832042D1204Faf7a97eDD93611A92B20461c",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9333333333333332,
+      "reliability": 0.99946584300426,
+      "cost": 0.75,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "DecentraRank-Validator",
+          "operator_address": "0xaED4832042D1204Faf7a97eDD93611A92B20461c",
+          "commission_rate": 0.05,
+          "delegations_total": "1500000000000000000000000",
+          "self_bond": "250000000000000000000000",
+          "uptime_percent": 99.91,
+          "blocks_signed": 142300,
+          "blocks_proposed": 1810,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.839,
+      "entity_id": "0xb0d37fb47894d371dc3989ca78ece3687421c643",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x111100000000000000000000000000000000000a",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9384615384615385,
+      "reliability": 0.9974262913108316,
+      "cost": 0.7,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "GravityNode",
+          "operator_address": "0x111100000000000000000000000000000000000a",
+          "commission_rate": 0.06,
+          "delegations_total": "1300000000000000000000000",
+          "self_bond": "220000000000000000000000",
+          "uptime_percent": 99.3,
+          "blocks_signed": 141500,
+          "blocks_proposed": 1550,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.8319,
+      "entity_id": "0x063cebfacdc596959935215c8e57ba5bb77d9911",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000007",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9294117647058823,
+      "reliability": 0.9982636299897322,
+      "cost": 0.6499999999999999,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "EagleStake",
+          "operator_address": "0x1111000000000000000000000000000000000007",
+          "commission_rate": 0.07,
+          "delegations_total": "1700000000000000000000000",
+          "self_bond": "280000000000000000000000",
+          "uptime_percent": 99.55,
+          "blocks_signed": 142100,
+          "blocks_proposed": 1680,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.8228,
+      "entity_id": "0xc4ee5769db542abcd6bbae1a6b1d7c938c88051b",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000004",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.8157894736842105,
+      "reliability": 0.9988996287881513,
+      "cost": 0.75,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "ValidNode-IO",
+          "operator_address": "0x1111000000000000000000000000000000000004",
+          "commission_rate": 0.05,
+          "delegations_total": "1900000000000000000000000",
+          "self_bond": "300000000000000000000000",
+          "uptime_percent": 99.74,
+          "blocks_signed": 142900,
+          "blocks_proposed": 1720,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": false
+        }
+      },
+      "composite_score": 0.8153,
+      "entity_id": "0x203dea409b4d52516ded39d0b2e8dc4a90be72f7",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000003",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.9333333333333332,
+      "reliability": 0.9978284095252521,
+      "cost": 0.5,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "NodeFleet",
+          "operator_address": "0x1111000000000000000000000000000000000003",
+          "commission_rate": 0.1,
+          "delegations_total": "2400000000000000000000000",
+          "self_bond": "400000000000000000000000",
+          "uptime_percent": 99.42,
+          "blocks_signed": 141800,
+          "blocks_proposed": 1640,
+          "slashing_events": 0,
+          "jailed": false,
+          "identity_verified": true
+        }
+      },
+      "composite_score": 0.801,
+      "entity_id": "0x428d1369d19bfe609ced1ad9acfbd8a6d6453763",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000006",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.8272727272727273,
+      "reliability": 0.9247138373672078,
+      "cost": 0.6000000000000001,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "BlockKeeper",
+          "operator_address": "0x1111000000000000000000000000000000000006",
+          "commission_rate": 0.08,
+          "delegations_total": "1100000000000000000000000",
+          "self_bond": "180000000000000000000000",
+          "uptime_percent": 98.91,
+          "blocks_signed": 140900,
+          "blocks_proposed": 1410,
+          "slashing_events": 1,
+          "jailed": false,
+          "identity_verified": false
+        }
+      },
+      "composite_score": 0.7728,
+      "entity_id": "0xd9856336f383293c7606ed78cc2dc8f355c67467",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x1111000000000000000000000000000000000008",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.8,
+      "reliability": 0.835285296794909,
+      "cost": 0.2500000000000001,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "MoonValidator",
+          "operator_address": "0x1111000000000000000000000000000000000008",
+          "commission_rate": 0.15,
+          "delegations_total": "600000000000000000000000",
+          "self_bond": "90000000000000000000000",
+          "uptime_percent": 97.2,
+          "blocks_signed": 138700,
+          "blocks_proposed": 980,
+          "slashing_events": 2,
+          "jailed": false,
+          "identity_verified": false
+        }
+      },
+      "composite_score": 0.688,
+      "entity_id": "0x87d75ae31fcb6d1393c3c45600146e9c05f79476",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    },
+    {
+      "entity_type": "validator",
+      "domain": "0g.staking",
+      "producer": "0x111100000000000000000000000000000000000b",
+      "submitted_at": 1499900,
+      "last_updated": 1500000,
+      "relevance": 0.5,
+      "recency": 0.9330329915368074,
+      "provenance": 0.8,
+      "reliability": 0.6611407928359319,
+      "cost": 0.0,
+      "extensions": {
+        "0g.staking": {
+          "moniker": "ChainGuard",
+          "operator_address": "0x111100000000000000000000000000000000000b",
+          "commission_rate": 0.2,
+          "delegations_total": "400000000000000000000000",
+          "self_bond": "60000000000000000000000",
+          "uptime_percent": 96.4,
+          "blocks_signed": 137200,
+          "blocks_proposed": 720,
+          "slashing_events": 3,
+          "jailed": true,
+          "identity_verified": false
+        }
+      },
+      "composite_score": 0.5983,
+      "entity_id": "0x57303f976039b9afb49d6a26a6d9441eace35d3b",
+      "previous_entity_id": null,
+      "schema_version": "0.1.0"
+    }
+  ]
+}
